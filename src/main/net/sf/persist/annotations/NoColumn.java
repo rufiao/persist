@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
  * getter or a setter associated with a field.
  */
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.METHOD)
+@Target({ElementType.METHOD, ElementType.FIELD})
 public @interface NoColumn {
 
 }
