@@ -3,5 +3,7 @@ build/work
 build/lib/jdbc-drivers/ojdbc14.jar
 build/release
 .pydevproject
+.idea
+persist.iml
 *.pyc
 *~
