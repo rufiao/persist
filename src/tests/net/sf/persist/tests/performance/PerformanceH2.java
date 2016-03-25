@@ -122,7 +122,7 @@ public class PerformanceH2 {
 		
 		
 		// find a single id to be used by select by primary key
-		long id = persist.read(int.class, "select min(id) from all_types");
+		long id = persist.read(long.class, "select min(id) from all_types");
 		
 		// read
 		
